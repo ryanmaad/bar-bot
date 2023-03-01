@@ -1,6 +1,6 @@
 .header-banner{
-    background-color: aqua;
-    height: 40px;
+    background-color: #f2f2f2;
+    height: 60px;
     width:100vw;
     position: fixed;
     left: 0;
@@ -15,21 +15,36 @@
 }
 .header-title{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
+    font-size: xx-large;
     position: fixed;
-    left: 20px;
+    width: 200px;
+    left: calc(50vw - 50px);
+    color: black;
+    text-align: center;
 }
 .header-button-group{
     width:320px;
+    position:absolute;
+    height:60px;
+    top:0;
+    display: flex;
+    align-items:flex-start;
 }
 .header-button{
     width: 80px;
-    height: 40px;
-    background-color: green;
-    border: 0;
+    height: 60px;
+    background-color: #fecd51;
+    color: white;
+    border: 1px solid;
+    border-color: #e9a803;
+    font-size: 15px;
+    position:relative;
+    top:0;
 }
 
 .header-button:hover{
-    background-color: pink;
-    height: 45px;
+    background-color: white;
+    color: #fecd51;
+    height: 65px;
+    font-size: 20px;
 }

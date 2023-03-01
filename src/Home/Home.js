@@ -5,7 +5,19 @@ const Home = () => {
 
     return (
         <div className="home-body">
-            <p>HOME</p>
+            <div className="home-container">
+                <div className="home-text">HOME</div>
+                <div className="home-text">HOME</div>
+                <div className="home-text">HOME</div>
+                <div className="home-text">HOME</div>
+                <div className="home-text">HOME</div>
+                <div className="home-text">HOME</div>
+                <div className="home-text">HOME</div>
+                <div className="home-text">HOME</div>
+                <div className="home-text">HOME</div>
+                <div className="home-text">HOME</div>
+                <div className="home-text">HOME</div>
+            </div>
         </div>
     )
 };
