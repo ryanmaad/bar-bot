@@ -6,12 +6,12 @@ const Header = () => {
 
     return (
         <div className="header-banner">
-            <p className="header-title">Header!</p>
+            <p className="header-title">The Tavern</p>
             <div className="header-button-group">
-                <button className="header-button">Click1</button>
-                <button className="header-button">Click2</button>
-                <button className="header-button">Click3</button>
-                <button className="header-button">Click4</button>
+                <button className="header-button">HOME</button>
+                <button className="header-button">DRINKS</button>
+                <button className="header-button">ABOUT</button>
+                <button className="header-button">ACCOUNT</button>
             </div>
         </div>
     )

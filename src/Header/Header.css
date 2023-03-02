@@ -1,5 +1,5 @@
 .header-banner{
-    background-color: #f2f2f2;
+    background-color: #FEFAE0;
     height: 60px;
     width:100vw;
     position: fixed;
@@ -15,15 +15,17 @@
 }
 .header-title{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: xx-large;
+    font-size: 40px;
     position: fixed;
-    width: 200px;
-    left: calc(50vw - 50px);
-    color: black;
+    width: 300px;
+    left: 44vw;
+    color: #BC6C25;
     text-align: center;
+    font-weight: bolder;
+    text-shadow: -1px 0 #924e12, 0 1px #924e12, 1px 0 #924e12, 0 -1px #924e12;
 }
 .header-button-group{
-    width:320px;
+    width:450px;
     position:absolute;
     height:60px;
     top:0;
@@ -31,20 +33,23 @@
     align-items:flex-start;
 }
 .header-button{
-    width: 80px;
+    width: 150px;
     height: 60px;
-    background-color: #fecd51;
+    background-color: #BC6C25;
     color: white;
     border: 1px solid;
-    border-color: #e9a803;
+    border-color: #ac611f;
     font-size: 15px;
     position:relative;
     top:0;
+    font-weight: bold;
+    text-shadow: -1px 0 #924e12, 0 1px #924e12, 1px 0 #924e12, 0 -1px #924e12;
 }
 
 .header-button:hover{
     background-color: white;
-    color: #fecd51;
+    color: #BC6C25;
     height: 65px;
     font-size: 20px;
+    text-shadow: none;
 }
